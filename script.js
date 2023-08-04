@@ -411,7 +411,7 @@ const foodpro = foodDataSet.sort((a, b) => {
 });
 foodDataSet.forEach((fooditem) => {
   const li = document.createElement('li');
-  li.innerText = fooditem.foodname + ' \nproteins =  ' + fooditem.protiens;
+  li.innerText = fooditem.foodname + ' \nprotein =  ' + fooditem.protiens;
   prohtol.appendChild(li);
 });
 
