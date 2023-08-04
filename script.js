@@ -405,7 +405,7 @@ const FoodCalo = foodDataSet.filter((fooditem) => {
 const foodpro = foodDataSet.sort((a, b) => {
   if (a.protiens < b.protiens) {
     return 1;
-  } else if (a.protiens > b.protiens) {
+  } else {
     return -1;
   }
 });
@@ -418,7 +418,7 @@ foodDataSet.forEach((fooditem) => {
 const foodCab = foodDataSet.sort((a, b) => {
   if (a.cab > b.cab) {
     return 1;
-  } else if (a.cab < b.cab) {
+  } else {
     return -1;
   }
 });
